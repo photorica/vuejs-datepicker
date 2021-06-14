@@ -1,5 +1,5 @@
 {
-  "name": "vuejs-datepicker",
+  "name": "vuejs-datepicker-with-rokuyo",
   "version": "1.6.2",
   "description": "A simple Vue.js datepicker component. Supports disabling of dates, inline mode, translations",
   "keywords": [
@@ -18,10 +18,10 @@
   "author": "Yuta Kaga <k.limit501@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/charliekassel/vuejs-datepicker"
+    "url": "https://github.com/photorica/vuejs-datepicker"
   },
   "bugs": {
-    "url": "https://github.com/charliekassel/vuejs-datepicker/issues"
+    "url": "https://github.com/photorica/vuejs-datepicker/issues"
   },
   "private": false,
   "license": "MIT",
