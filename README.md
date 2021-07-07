@@ -1,4 +1,4 @@
-# Datepicker
+# Datepicker-with-Rokuyo
 
 [![Travis Build](https://img.shields.io/travis/charliekassel/vuejs-datepicker.svg)](https://travis-ci.org/charliekassel/vuejs-datepicker)
 [![Version](https://img.shields.io/npm/v/vuejs-datepicker.svg)](https://www.npmjs.com/package/vuejs-datepicker)
@@ -29,12 +29,12 @@ To view demo examples locally clone the repo and run `npm install && npm run ser
 ## Install
 
 ``` bash
-npm install vuejs-datepicker --save
+npm install vuejs-datepicker-with-rokuyo --save
 ```
 
 
 ``` javascript
-import Datepicker from 'vuejs-datepicker';
+import Datepicker from 'vuejs-datepicker-with-rokuyo';
 
 export default {
   // ...
@@ -321,7 +321,7 @@ Contributing guide - please use appropriate code from this [list](http://www.ian
 
 Below script tag in component.
 ```javascript
-import {en, es} from 'vuejs-datepicker/dist/locale'
+import {en, es} from 'vuejs-datepicker-with-rokuyo/dist/locale'
 ```
 
 In component data.
