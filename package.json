@@ -1,6 +1,6 @@
 {
   "name": "vuejs-datepicker-with-rokuyo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple Vue.js datepicker component. Supports disabling of dates, inline mode, translations",
   "keywords": [
     "vue",
@@ -28,7 +28,6 @@
   "scripts": {
     "build": "rm -rf dist/* && rollup -c scripts/build.js && rollup -c scripts/build-locale.js",
     "serve": "rollup -c scripts/serve.js --watch",
-    // "test": "jest --config test/unit/jest.conf.js --coverage",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "prepublishOnly": "npm run build"
   },
