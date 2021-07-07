@@ -13,8 +13,6 @@
         :class="{'disabled': isRightNavDisabled}">&gt;</span>
     </header>
     <div :class="isRtl ? 'flex-rtl' : ''">
-      <div :class="satClasses(days, blankDays)" />
-      <div :class="sunClasses(days, blankDays)" />
       <span class="cell day-header" v-for="d in daysOfWeek" :key="d.timestamp">{{ d }}</span>
       <template v-if="blankDays > 0">
         <span class="cell day blank" v-for="d in blankDays" :key="d.timestamp"></span>
@@ -29,6 +27,8 @@
           v-html="dayCellContent(day)"
           @click="selectDate(day)"></span>
       </vx-tooltip>
+      <div :class="satClasses(days, blankDays)" />
+      <div :class="sunClasses(days, blankDays)" />
     </div>
   </div>
 </template>
